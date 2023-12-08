@@ -1,0 +1,17 @@
+.feed-form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+
+    input {
+        background-color: #FFF;
+        height: 54px;
+        border-radius: 5px;
+        padding: 0 20px;
+        margin-bottom: 15px;
+        
+        &::placeholder {
+        color: #4B4B4B;
+        }
+    }
+}

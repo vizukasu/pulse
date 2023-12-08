@@ -8,6 +8,11 @@
     border-radius: 5px;
     border: none;
     background-color: $main-color;
+    cursor: pointer;
+
+    &:hover {
+        opacity: 0.7;
+    }
 
     &_promo {
         margin-top: 67px;
@@ -17,7 +22,6 @@
     }
 
     &_consultation {
-        margin-top: 67px;
         width: 303px;
         height: 58px;
         font-size: 16px;
