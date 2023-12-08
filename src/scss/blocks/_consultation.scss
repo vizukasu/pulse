@@ -3,6 +3,15 @@
     padding: 100px 0 124px 0;
     background: url(/src/img/bg2.jpg) lightgray 50% / cover no-repeat;
 
+    &__descr {
+        color: #FFF;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 30px;
+        text-align: left;
+        margin-bottom: 36px;
+    }
+
     &__form {
         width: 303px;
         display: flex;
