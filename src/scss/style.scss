@@ -1,0 +1,21 @@
+@import 'base/variables';
+@import 'base/fonts';
+@import 'base/mixins';
+@import 'base/reset';
+
+
+* {
+    font-family: 'Museo Snas Cyrl', sans-serif;
+}
+
+@import 'blocks/advantages';
+@import 'blocks/promo';
+@import 'blocks/consultation';
+
+
+
+@import 'components/buttons';
+@import 'components/containers';
+@import 'components/header';
+@import 'components/titles';
+
