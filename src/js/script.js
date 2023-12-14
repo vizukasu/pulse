@@ -2,8 +2,8 @@ $(document).ready(function(){
     $('.carousel__inner').slick({
         speed: 1200,
         // adaptiveHeight: true,
-        prevArrow: '<button type="button" class="slick-prev"><img src="../src/icons/carousel/left.png"></button>',
-        nextArrow: '<button type="button" class="slick-next"><img src="../src/icons/carousel/rigth.png"></button>',
+        prevArrow: '<button type="button" class="slick-prev"><img src="icons/carousel/left.png"></button>',
+        nextArrow: '<button type="button" class="slick-next"><img src="icons/carousel/rigth.png"></button>',
         responsive: [
             {
                 breakpoint: 992,
