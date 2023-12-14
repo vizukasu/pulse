@@ -1,9 +1,8 @@
 .promo {
     min-height: 650px;
     padding: 21px 0 93px 0;
-    background: url("/src/img/bg.jpg") lightgray 50% / cover no-repeat;
+    background: url("/src/img/bg.png") lightgray 50% / cover no-repeat;
 
-    border: 1px solid red
 
     &__wrapper {
         display: flex;
