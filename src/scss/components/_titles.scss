@@ -4,7 +4,7 @@
     font-size: 30px;
     font-weight: 700;
     line-height: 30px; 
-
+    text-transform: uppercase;
     &_con {
         color: #FFF;
         font-size: 36px;
@@ -13,5 +13,14 @@
         text-transform: uppercase;
         text-align: justify;
         margin-bottom: 8px;
+    }
+
+    &_cat {
+        font-weight: 400;
+        line-height: 45px;
+    }
+
+    &_rev {
+        margin-bottom: 60px;
     }
 }
