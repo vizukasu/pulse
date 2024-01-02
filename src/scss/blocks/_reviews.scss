@@ -1,41 +1,35 @@
-.reviews {
-
-    padding-bottom: 40px;
-    background-color: #ffffff;
-
-    &__item {
-        display: flex;
-        justify-content: space-between;
-        margin-top: 60px;
-    }
-
-    &__descr {
-        margin-left: 60px;
-    }
-
-    &__one {
-        font-weight: bold;
-        font-size: 18px;
-        line-height: 0.1px;
-    }
-
-    &__two {
-        color: #646464;
-        font-size: 14px;
-        font-weight: 500;
-        line-height: normal;
-    }
-
-    &__three {
-        color: #0D0D0D;
-        font-size: 16px;
-        font-weight: 300;
-        line-height: 24px;
-    }
-
-    &__icon {
-        max-width: 169px;
-        max-height: 169px;
-    }
-    
+.reviews{ 
+    margin-bottom: 100px;
+ 
+    .reviews-person{ 
+        display: flex; 
+        gap: 62px; 
+        margin-top: 60px; 
+ 
+        &__img{ 
+            width: 169px; 
+            height: 169px; 
+        } 
+        &__name{ 
+            color: #0D0D0D; 
+            font-size: 18px; 
+            font-weight: 700; 
+            line-height: 18px; /* 100% */     
+     
+             
+            span{ 
+                color: #646464; 
+                font-size: 14px; 
+                font-weight: 500;            
+            } 
+        } 
+ 
+        &__desrc{ 
+            margin-top: 10px; 
+            color: #0D0D0D; 
+            font-size: 16px; 
+            font-weight: 300; 
+            line-height: 24px; /* 150% */             
+        } 
+    } 
 }

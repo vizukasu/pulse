@@ -1,13 +1,17 @@
 .overlay {
-    display: none;
     position: fixed;
     width: 100%;
     height: 100%;
     top: 0;
     background-color: rgba(0,0,0, .56);
+
+    &_none {
+        display: none;
+    }
 }
 
 .modal {
+    display: none;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -44,8 +48,22 @@
     &_mini {
         min-height: 140px;
     }
+
+    .error {
+        border: 1px solid red;
+    }
+
+    label.error {
+        border: none;
+        text-align: center;
+        margin-bottom: 15px;
+    }
 }
 
-#consultation, #order, #thanks {
-    display: none;
+.modal_show {
+    display: block;
 }
+
+// #consultation, #order, #thanks {
+//     display: none;
+// }
